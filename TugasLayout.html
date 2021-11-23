@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+		.container{
+	background: blue;
+	width: 900px;
+	margin: 10px auto;
+}
+ 
+
+.container .header{
+	background: green;
+	
+	padding: 2px 10px;
+}
+ 
+
+.container .menu{
+	background: yellow;
+}
+ 
+.container .menu ul{
+	padding: 0;
+	margin: 0;
+	background: yellow;
+	overflow: hidden;
+}
+ 
+.container .menu ul li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+}
+
+ 
+.clear{
+	clear: both;
+}
+ 
+.badan{
+	height: 450px;
+}
+
+.container .badan .sidebar{
+	background: orange;
+	float: left;	
+	width: 25%;
+	height: 100%;
+}
+ 
+ 
+.container .badan .content{
+	background: red;
+	float: left;
+	height: 100%;
+	width: 75%;	
+}
+ 
+.container .footer{
+	width: 100%;
+	padding: 10px;
+}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="header">			
+			<h1 align="left">Belajar Web Layout</h1>
+			<p>Tutorial belajar membuat layout website sederhana dengan CSS</p>
+		</div>
+		<div class="menu">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">HTML</a></li>
+				<li><a href="#">CSS</a></li>
+				<li><a href="#">PHP</a></li>
+				<li><a href="#">Javascript</a></li>				
+			</ul>
+		</div>
+		<div class="badan">			
+			<div class="sidebar">
+				<p align="left">sidebar</p>
+				<ul>
+					<li><a href="#">Menu 1</a></li>
+					<li><a href="#">Menu 2</a></li>
+					<li><a href="#">Menu 3</a></li>
+					<li><a href="#">Menu 4</a></li>				
+				</ul>
+			</div>
+			<div class="content">
+			Ini Home
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div align="left" class="footer">
+			footer
+		</div>
+	</div>
+</body>
+</head>
+</html>
