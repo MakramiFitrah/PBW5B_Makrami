@@ -1,4 +1,4 @@
-<html>
+<html style="background-color: #964B00;">
 <table>
 <form method="post" action="Percabangan.php">
 	<tr>
